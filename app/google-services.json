@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "60141059471",
+    "project_id": "hakerdata-db97e",
+    "storage_bucket": "hakerdata-db97e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60141059471:android:b04fa2693ea02389b89ffa",
+        "android_client_info": {
+          "package_name": "com.example.hakerdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60141059471-na8josuf88evoqdt1albefms8l253q28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hakerdata",
+            "certificate_hash": "a47050b42d9823c076dfeec4ad4db2257e9345ab"
+          }
+        },
+        {
+          "client_id": "60141059471-n6hevijapa7pauuu2t5gndjojelfuu2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABedCFbYzq7RGn6rU5ccOa0p757dW5nKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60141059471-n6hevijapa7pauuu2t5gndjojelfuu2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
