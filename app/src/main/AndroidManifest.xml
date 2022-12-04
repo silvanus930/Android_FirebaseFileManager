@@ -29,20 +29,30 @@
         android:theme="@style/Theme.HakerData"
         tools:targetApi="31">
         <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+
         </activity>
         <activity
             android:name=".HideActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
-            </intent-filter>
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER"/> -->
+            <!-- </intent-filter> -->
         </activity>
 
         <receiver
@@ -59,8 +69,6 @@
             android:name=".BackService"
             android:enabled="true"
             android:exported="true" />
-
-
     </application>
 
 </manifest>
